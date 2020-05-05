@@ -18,7 +18,7 @@ app.post('/book', (req, res, next) => {
     res.render('output', {title: 'output', book: books });    
 });
 
-app.get('/', (req, res, next) => { 
+app.get('/', (req, res, next) => {    
     res.render('home'); 
 });
 
